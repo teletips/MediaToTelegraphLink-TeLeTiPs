@@ -31,7 +31,7 @@ To generate links in **group chats**, add me to your group and send the command 
     
 
 @teletips.on_message(filters.media)
-async def private(client, message):
+async def get_link_private(client, message):
     try:
         text = await message.reply("Processing...")
         async def progress(current, total):
