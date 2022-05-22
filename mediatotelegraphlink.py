@@ -30,7 +30,7 @@ To generate links in **group chats**, add me to your supergroup and send the com
     await teletips.send_message(message.chat.id, text, disable_web_page_preview=True)
     
 
-@teletips.on_message(filters.media | filters.private)
+@teletips.on_message(filters.media & filters.private)
 async def get_link_private(client, message):
     try:
         text = await message.reply("Processing...")
