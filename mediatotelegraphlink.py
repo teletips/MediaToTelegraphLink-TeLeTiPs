@@ -50,7 +50,7 @@ async def private(client, message):
     except Exception:
         pass        
 
-@teletips.on_message(filters.command(["tl"]))
+@teletips.on_message(filters.command('tl'))
 async def get_link_group(client, message):
     try:
         text = await message.reply("Processing...")
