@@ -70,7 +70,7 @@ async def get_link_group(client, message):
     except Exception:
         pass                                           
 
-print("teletips is alive!")
+print("Bot is alive!")
 teletips.run()
 
 #Copyright ©️ 2022 TeLe TiPs. All Rights Reserved
