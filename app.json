@@ -1,0 +1,37 @@
+{
+    "name": "MediaToTelegraphLink",
+    "description": "Powerful Telegram bot to generate Telegraph links for your media files. This bot can works also in group chats.",
+    "repository": "https://github.com/teletips/MediaToTelegraphLink-TeLeTiPs",
+    "keywords": [
+        "telegraph",
+        "telegraph link",
+        "generate telegraph links",
+        "media to telegraph link",
+        "telegram bot to generate telegraph links",
+        "bot to upload media to telegraph",
+        "Telegram bot",
+        "Pyrogram bot"
+    ],
+    "env": {
+        "API_ID": {
+            "description": "Get from my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Get from my.telegram.org/apps"
+        },
+        "BOT_TOKEN": {
+            "description": "Get from Telegram's @BotFather"
+        }
+    },
+    "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
