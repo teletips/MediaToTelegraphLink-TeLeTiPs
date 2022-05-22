@@ -38,10 +38,10 @@ To generate links in group chats, add this bot to your group and send the comman
 - [TeLe TiPs](https://github.com/teletips)
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-## Friendly Warning
+## Warning
 
 - You are free to use this code in any of your projects, but you MUST include the following in your README.md (Copy & paste)
 ```
 ##Credits
-- [GetAnyID bot by TeLe TiPs] (https://github.com/teletips/MediaToTelegraphLink-TeLeTiPs)
+- [MediaToTelegraphLink bot by TeLe TiPs] (https://github.com/teletips/MediaToTelegraphLink-TeLeTiPs)
 ```
